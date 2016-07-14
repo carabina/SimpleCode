@@ -31,7 +31,10 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'CodeDemo/Classes/**/*'
-  
+  s.subspec "net" do |net|
+     net.source_files = "CodeDemo/Classes/net/*"
+  end
+
   # s.resource_bundles = {
   #   'CodeDemo' => ['CodeDemo/Assets/*.png']
   # }
