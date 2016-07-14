@@ -31,9 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'CodeDemo/Classes/**/*'
-  s.subspec "net" do |net|
-     net.source_files = "CodeDemo/Classes/net/*"
-  end
+
 
   # s.resource_bundles = {
   #   'CodeDemo' => ['CodeDemo/Assets/*.png']
@@ -41,5 +39,5 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'AFNetworking', '~> 2.3.6'
+  s.dependency 'AFNetworking'
 end
